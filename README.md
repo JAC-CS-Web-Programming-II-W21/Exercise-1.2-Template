@@ -65,6 +65,8 @@ To be able to write a full-fledged web application that is well organized, we ca
    - contain all of the code that the user will **see** and **interact** with.
    - are dynamically constructed based on a **template** and data passed from the **controller**.
 
+![Models](images/1.2.2-Models.png)
+
 In this exercise, you will be writing a **model** to handle the data. The models' classes and methods will have to comply with specific requirements so that they may successfully pass the test suite. The test suite is available for you to use as much as you want while developing the model.
 
 Normally, the *controller* would make the method calls on the *model*. Because we're creating only the *model* by itself, the test suite will act as our stand-in *controller* for now.
